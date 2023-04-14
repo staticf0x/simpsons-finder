@@ -6,6 +6,9 @@ import re
 from dataclasses import dataclass
 
 import rich
+from rich.console import Console
+from rich.highlighter import RegexHighlighter
+from rich.theme import Theme
 
 # Regex to parse the SSxEE episode numbers
 EP_NUMBER_REGEX = re.compile(r"(\d{2})x(\d{2})")
@@ -27,6 +30,11 @@ class EpisodeInfo:
     episode: int
     name: str
     data: str
+
+
+class DescHighlighter(RegexHighlighter):
+    base_style = "desc."
+    highlights = [r"\"(?P<quote>.+)\"", r"(?P<character>[\w ]+):"]
 
 
 class SimpsonsFinder:
@@ -81,8 +89,11 @@ class SimpsonsFinder:
 
         self.print_episode_header(season, episode)
 
+        theme = Theme({"desc.quote": "italic", "desc.character": "cyan"})
+        console = Console(highlighter=DescHighlighter(), theme=theme)
+
         print()
-        print(ep_data.data)
+        console.print(ep_data.data)
 
     def print_episode_header(self, season: int, episode: int) -> None:
         """Print season, episode and name in colors."""
