@@ -6,4 +6,4 @@ This was a very very simple script I wrote when I was in my early years of progr
 
 ## Running
 
-`$ pipenv run simpsons.py <query>`
+`$ poetry run simpsons.py <query>`
