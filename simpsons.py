@@ -34,7 +34,7 @@ class EpisodeInfo:
 
 class DescHighlighter(RegexHighlighter):
     base_style = "desc."
-    highlights = [r"\"(?P<quote>.+)\"", r"(?P<character>[\w ]+):"]
+    highlights = [r": \"(?P<quote>[\w\s\n\d!.,?:'-]+)\"", r"(?P<character>[\w .]+): "]
 
 
 class SimpsonsFinder:

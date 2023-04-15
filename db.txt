@@ -2866,7 +2866,7 @@
 
 	Flandersovi odjíždí do Sentimentova
 
-	Homer: "Ty se koupeš ve vaně v plavkách?
+	Homer: "Ty se koupeš ve vaně v plavkách?"
 	Ned: "Jo, pak nevidím svýho lulínka."
 	Homer: "Lulínka?"
 
@@ -2883,7 +2883,7 @@
 
 17x02 Děvče, které spalo příliš málo
 	Ned, Lenny, Carl, Kent Brockman, Dr. Nick Riviera, Wiggum, Lou, Eddie,
-	Milhouse,
+	Milhouse
 
 17x03 Milhouse z písku a mlhy
 	Reverend Lovejoy, Dr. Dlaha, Ned, Kirk Van Houten, Ralph, Wiggum,
@@ -2949,7 +2949,7 @@
 17x11 Všechny cesty vedou do krimu
 	Skinner, Milhouse, Vočko, Lenny, Carl, Edna Krabapple, Martin Prince, Nelson,
 	Učitel hudebky, Ralph, Willie, Inspektor Chalmers, Komiksák, Ned, Otto, Haďák,
-	Smithers, Jimbo, Wiggum, Lou,
+	Smithers, Jimbo, Wiggum, Lou
 
 	Homer veze Barta do výchovného centra, Marge prodává prošlé léky
 
